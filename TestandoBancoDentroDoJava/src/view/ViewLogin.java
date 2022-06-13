@@ -27,7 +27,7 @@ public class ViewLoginVulneravel extends JFrame implements ActionListener{
 	public ViewLoginVulneravel() {
 		super("Login");
 		txtNomeUsuario = new JTextField(10);
-		lblNomeUsuario = new JLabel("Nome do usu·rio");
+		lblNomeUsuario = new JLabel("Nome do usu√°rio");
 		formulario = new JPanel(new GridLayout(1,2));
 		formulario.add(lblNomeUsuario);
 		formulario.add(txtNomeUsuario);
@@ -52,7 +52,7 @@ public class ViewLoginVulneravel extends JFrame implements ActionListener{
 				janela.show();
 				this.dispose();
 			}else {
-				JOptionPane.showMessageDialog(null, "Login inv·lido");
+				JOptionPane.showMessageDialog(null, "Login inv√°lido");
 			}
 		}
 		
